@@ -1,0 +1,50 @@
+.pagination {
+  position: relative;
+  margin-top: 2.5rem;
+}
+
+.pagination-btn-block {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pagination-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  width: 1.4rem;
+  height: 1.5rem;
+}
+
+.pagination-btn:focus {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.next-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  padding: 0;
+  color: var(--primary-color);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .next-btn{
+    right: -1rem;
+    top: .1rem;
+  }
+}

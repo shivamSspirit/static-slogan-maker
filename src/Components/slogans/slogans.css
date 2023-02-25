@@ -1,0 +1,21 @@
+.generated-slogans-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.generated-slogans-title {
+  font-weight: 450;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--footer-bg-color);
+}
+
+.generated-slogans {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}

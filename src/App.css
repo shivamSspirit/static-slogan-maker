@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
+ .App {
+   width: 100vw;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .btn {
+   font-family: inherit;
+   border: none;
+   padding: 0.8rem;
+   font-weight: 500;
+   font-size: inherit;
+   border-radius: 4px;
+   cursor: pointer;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .slogan-btn {
+   background-color: var(--primary-color);
+   color: var(--white-color);
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .download-outline-btn {
+   padding: 0.6rem 1.4rem;
+   border: 1.4px solid var(--primary-color);
+   color: var(--primary-color);
+   font-weight: 400;
+font-size: 14px;
+   background-color: var(--white-color);
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .filled-btn {
+   background-color: var(--white-color);
+   color: var(--primary-color);
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .link {
+   background-color: transparent;
+   color: var(--white-color);
+ }
+
+ .link:hover {
+   text-decoration: underline;
+ }
+
+ .divider {
+   border: none;
+   height: 1px;
+   background-color: var(--divider-color);
+ }

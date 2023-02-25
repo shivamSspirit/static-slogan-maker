@@ -1,0 +1,23 @@
+.header-container {
+  /* width: 100vw; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  min-height: 20rem;
+  padding: 1.5rem 5rem 0rem 5rem;
+}
+
+.header-blocks {
+  display: flex;
+  justify-content: space-between;
+  /* width: 87.5%; */
+  max-width: 70rem;
+}
+
+.sign-in {
+  font-weight: 400;
+  margin-right: 2rem;
+}
+

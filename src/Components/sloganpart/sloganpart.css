@@ -1,0 +1,86 @@
+.slogan-block-container {
+  background-color: var(--light-grey);
+  padding-bottom: 15rem;
+}
+
+.slogan-maker-container {
+  position: relative;
+  z-index: 1;
+  top: 10rem;
+  background-color: var(--white-color);
+  padding: 5rem 12rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px var(--container-shadow);
+  max-width: 70rem;
+  margin: auto;
+}
+
+.slogan-maker-title {
+  font-style: normal;
+  font-size: 36px;
+  color: var(--footer-bg-color);
+}
+
+.slogan-term {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--light-font);
+  margin-top: 2rem;
+}
+
+.slogan-maker-box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.slogan-label {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--light-font);
+}
+
+.slogan-input-box {
+  max-width: 16rem;
+  position: relative;
+}
+
+#slogan-input {
+  border: 1px solid var(--divider-color);
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5rem;
+  min-width: 16rem;
+}
+
+.input-box {
+  display: inline-block;
+  position: relative;
+}
+
+.close-icon {
+  position: absolute;
+  font-size: 1.5rem;
+  right: 5px;
+  top: 7px;
+  cursor: pointer;
+}
+
+.slogan-btn-box {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .slogan-maker-container{
+    width: 90%;
+    padding: 2rem 8rem;
+  }
+  .slogan-maker-title{
+    line-height: 35px;
+  }
+}
