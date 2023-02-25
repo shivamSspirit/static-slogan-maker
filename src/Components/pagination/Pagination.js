@@ -4,7 +4,6 @@ import { HiOutlineChevronRight } from "react-icons/hi";
 
 function Pagination() {
   return (
-    <>
       <div className="pagination">
         <ul className="pagination-btn-block">
           <li>
@@ -27,7 +26,6 @@ function Pagination() {
           Next <HiOutlineChevronRight />
         </button>
       </div>
-    </>
   )
 }
 

@@ -4,7 +4,6 @@ import * as dummyData from '../../db/dummydatabase'
 
 function Products() {
   return (
-    <>
       <section className="products-section mx-auto">
         <h1 className="products-title py-5 fw-600">Try our other free products</h1>
         <div className="products-wrapper">
@@ -20,7 +19,6 @@ function Products() {
           })}
         </div>
       </section>
-    </>
   )
 }
 

@@ -4,7 +4,6 @@ import * as dummyData from '../../db/dummydatabase'
 
 function Features() {
   return (
-    <>
       <section className="features-section">
         <div className="features-wrapper py-3">
           {dummyData.featuresData.map((feature) => {
@@ -19,7 +18,6 @@ function Features() {
           })}
         </div>
       </section>
-    </>
   )
 }
 

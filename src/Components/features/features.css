@@ -1,6 +1,5 @@
 .features-section {
   background-color: var(--light-blue);
-  /* max-width: 70rem; */
 }
 
 .features-wrapper {
@@ -18,7 +17,7 @@
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color:var(--footer-bg-color);
+  color: var(--footer-bg-color);
 }
 
 .feature-description {
@@ -29,7 +28,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .features-wrapper{
+  .features-wrapper {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;

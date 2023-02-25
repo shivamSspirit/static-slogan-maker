@@ -76,11 +76,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .slogan-maker-container{
+  .slogan-maker-container {
     width: 90%;
     padding: 2rem 8rem;
   }
-  .slogan-maker-title{
+
+  .slogan-maker-title {
     line-height: 35px;
   }
 }
