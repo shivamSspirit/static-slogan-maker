@@ -53,8 +53,8 @@
   border-radius: 5px;
   font-family: inherit;
   font-size: inherit;
-  padding: 0.5rem;
-  min-width: 16rem;
+  padding: 0.8rem;
+  min-width: 17rem;
 }
 
 .input-box {
@@ -65,8 +65,8 @@
 .close-icon {
   position: absolute;
   font-size: 1.5rem;
-  right: 5px;
-  top: 7px;
+  right: -7px;
+  top: 11px;
   cursor: pointer;
 }
 
